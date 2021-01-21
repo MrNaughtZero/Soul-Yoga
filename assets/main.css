@@ -125,6 +125,7 @@ li.active {
     position: relative;
     top: -400px;
     border-top: 1px solid white;
+    z-index: 99;
 }
 
 .mobile-menu-links ul li {
@@ -138,9 +139,6 @@ li.active {
     left: 14px;
 } */
 
-.mobile-menu-animation {
-    transition: 1.5s ease-in-out;
-}
 
 /* main */
 
