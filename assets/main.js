@@ -1,5 +1,4 @@
 function openMenu(){
-    document.getElementsByClassName('mobile-menu-links')[0].classList.add('mobile-menu-animation');
     document.getElementsByClassName('mobile-menu-links')[0].style.top = '0';
     document.getElementsByClassName('mobile-menu')[0].onclick = hideMenu;
 }
